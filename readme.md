@@ -26,6 +26,10 @@ Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 
 ## SQL Challenge
 
+### Desafios
+
+![screenshot](/images/questions.png) <br>
+
 1. Quais as cidades pertencentes ao Estado do Ceará, buscando pela sigla CE?
 ``` 
 -- Criação de uma view:
