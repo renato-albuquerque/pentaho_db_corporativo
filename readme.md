@@ -34,7 +34,7 @@ Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 ![screenshot](/images/json_input.png) <br>
 ![screenshot](/images/escolaridade.png) <br>
 
-## SQL Challenge
+## SQL Challenge (Pentaho Class 01)
 
 ### Desafios
 
@@ -86,3 +86,36 @@ select * from view_qtde_cidade_fortaleza;
 ```
 
 ![screenshot](/images/c3.png) <br>
+
+## SQL Challenge (Pentaho Class 02)
+
+### Desafios
+
+![screenshot](/images/questions_class2.png) <br>
+
+1. Quantos bairros existem por estado?
+``` 
+select e.sigla as sigla_estado, count(b.descricao) as total_bairros
+from geral.cidade c
+inner join geral.estado e
+on c.id_estado = e.id
+inner join geral.bairro b
+on c.id = b.id_cidade
+group by e.sigla;
+```
+
+![screenshot](/images/class2_ex1.png) <br>
+
+2. Agrupar por ordem decrescente o total de bairros por estado.
+``` 
+select e.sigla as sigla_estado, count(b.descricao) as total_bairros
+from geral.cidade c
+inner join geral.estado e
+on c.id_estado = e.id
+inner join geral.bairro b
+on c.id = b.id_cidade
+group by e.sigla
+order by total_bairros DESC;
+```
+
+![screenshot](/images/class2_ex2.png) <br>
