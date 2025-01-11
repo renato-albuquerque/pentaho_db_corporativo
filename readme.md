@@ -10,7 +10,7 @@ Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 ## Etapas de Desenvolvimento
 1. Entendimento do projeto. "Popular tabelas no banco de dados no PostgreSQL (bd corporativo)".
 2. Conectar o Pentaho com o PostgreSQL.
-3. Importar arquivos csv no Pentaho.
+3. Importar arquivos `csv` e `json` no Pentaho.
 4. Desenvolver fluxos para tratamento dos dados no Pentaho (Transformações, ktr's).
 5. Dados inseridos nas tabelas do PostgreSQL.
 
@@ -23,6 +23,16 @@ Instrutora: [Nayara Wakweski](https://github.com/NayaraWakewski) <br>
 
 ![screenshot](/images/etl_cidade.png) <br>
 ![screenshot](/images/cidade.png) <br>
+
+- Visualização de transformação (ktr) no Pentaho & Check dos dados inseridos no PostgreSQL, schema geral, tabela `bairro`:
+
+![screenshot](/images/etl_bairro.png) <br>
+![screenshot](/images/bairros.png) <br>
+
+- Visualização de transformação (ktr) no Pentaho & Check dos dados inseridos no PostgreSQL, schema rh, tabela `escolaridade`:
+
+![screenshot](/images/json_input.png) <br>
+![screenshot](/images/escolaridade.png) <br>
 
 ## SQL Challenge
 
