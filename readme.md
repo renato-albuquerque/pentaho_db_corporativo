@@ -119,3 +119,9 @@ order by total_bairros DESC;
 ```
 
 ![screenshot](/images/class2_ex2.png) <br>
+
+## Meus Contatos
+
+- Linkedin - [renato-malbuquerque](https://www.linkedin.com/in/renato-malbuquerque/)
+- Discord - [Renato Albuquerque#0025](https://discordapp.com/users/992621595547938837)
+- Business Card - [Renato Albuquerque](https://rma-contacts.vercel.app/)
